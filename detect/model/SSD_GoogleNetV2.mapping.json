@@ -1,0 +1,2136 @@
+[
+    {
+        "IR": {
+            "id": 0,
+            "name": "data",
+            "port": 0
+        },
+        "framework": {
+            "name": "data",
+            "port": "data"
+        }
+    },
+    {
+        "IR": {
+            "id": 1,
+            "name": "conv1/7x7_s2",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv1/7x7_s2/bn/sc",
+            "port": "conv1/7x7_s2/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 2,
+            "name": "conv1/7x7_s2/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv1/7x7_s2/bn/sc/relu",
+            "port": "conv1/7x7_s2/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 3,
+            "name": "pool1/3x3_s2",
+            "port": 1
+        },
+        "framework": {
+            "name": "pool1/3x3_s2",
+            "port": "pool1/3x3_s2"
+        }
+    },
+    {
+        "IR": {
+            "id": 4,
+            "name": "conv2/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv2/3x3_reduce/bn/sc",
+            "port": "conv2/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 5,
+            "name": "conv2/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv2/3x3_reduce/bn/sc/relu",
+            "port": "conv2/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 6,
+            "name": "conv2/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv2/3x3/bn/sc",
+            "port": "conv2/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 7,
+            "name": "conv2/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv2/3x3/bn/sc/relu",
+            "port": "conv2/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 8,
+            "name": "pool2/3x3_s2",
+            "port": 1
+        },
+        "framework": {
+            "name": "pool2/3x3_s2",
+            "port": "pool2/3x3_s2"
+        }
+    },
+    {
+        "IR": {
+            "id": 9,
+            "name": "inception_3a/1x1",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3a/1x1/bn/sc",
+            "port": "inception_3a/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 10,
+            "name": "inception_3a/1x1/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3a/1x1/bn/sc/relu",
+            "port": "inception_3a/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 11,
+            "name": "inception_3a/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3a/3x3_reduce/bn/sc",
+            "port": "inception_3a/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 12,
+            "name": "inception_3a/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3a/3x3_reduce/bn/sc/relu",
+            "port": "inception_3a/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 13,
+            "name": "inception_3a/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3a/3x3/bn/sc",
+            "port": "inception_3a/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 14,
+            "name": "inception_3a/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3a/3x3/bn/sc/relu",
+            "port": "inception_3a/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 15,
+            "name": "inception_3a/double3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3a/double3x3_reduce/bn/sc",
+            "port": "inception_3a/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 16,
+            "name": "inception_3a/double3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3a/double3x3_reduce/bn/sc/relu",
+            "port": "inception_3a/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 17,
+            "name": "inception_3a/double3x3a",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3a/double3x3a/bn/sc",
+            "port": "inception_3a/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 18,
+            "name": "inception_3a/double3x3a/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3a/double3x3a/bn/sc/relu",
+            "port": "inception_3a/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 19,
+            "name": "inception_3a/double3x3b",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3a/double3x3b/bn/sc",
+            "port": "inception_3a/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 20,
+            "name": "inception_3a/double3x3b/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3a/double3x3b/bn/sc/relu",
+            "port": "inception_3a/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 21,
+            "name": "inception_3a/pool",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3a/pool",
+            "port": "inception_3a/pool"
+        }
+    },
+    {
+        "IR": {
+            "id": 22,
+            "name": "inception_3a/pool_proj",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3a/pool_proj/bn/sc",
+            "port": "inception_3a/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 23,
+            "name": "inception_3a/pool_proj/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3a/pool_proj/bn/sc/relu",
+            "port": "inception_3a/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 24,
+            "name": "inception_3a/output",
+            "port": 4
+        },
+        "framework": {
+            "name": "inception_3a/output",
+            "port": "inception_3a/output"
+        }
+    },
+    {
+        "IR": {
+            "id": 25,
+            "name": "inception_3b/1x1",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3b/1x1/bn/sc",
+            "port": "inception_3b/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 26,
+            "name": "inception_3b/1x1/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3b/1x1/bn/sc/relu",
+            "port": "inception_3b/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 27,
+            "name": "inception_3b/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3b/3x3_reduce/bn/sc",
+            "port": "inception_3b/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 28,
+            "name": "inception_3b/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3b/3x3_reduce/bn/sc/relu",
+            "port": "inception_3b/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 29,
+            "name": "inception_3b/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3b/3x3/bn/sc",
+            "port": "inception_3b/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 30,
+            "name": "inception_3b/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3b/3x3/bn/sc/relu",
+            "port": "inception_3b/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 31,
+            "name": "inception_3b/double3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3b/double3x3_reduce/bn/sc",
+            "port": "inception_3b/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 32,
+            "name": "inception_3b/double3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3b/double3x3_reduce/bn/sc/relu",
+            "port": "inception_3b/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 33,
+            "name": "inception_3b/double3x3a",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3b/double3x3a/bn/sc",
+            "port": "inception_3b/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 34,
+            "name": "inception_3b/double3x3a/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3b/double3x3a/bn/sc/relu",
+            "port": "inception_3b/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 35,
+            "name": "inception_3b/double3x3b",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3b/double3x3b/bn/sc",
+            "port": "inception_3b/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 36,
+            "name": "inception_3b/double3x3b/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3b/double3x3b/bn/sc/relu",
+            "port": "inception_3b/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 37,
+            "name": "inception_3b/pool",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3b/pool",
+            "port": "inception_3b/pool"
+        }
+    },
+    {
+        "IR": {
+            "id": 38,
+            "name": "inception_3b/pool_proj",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3b/pool_proj/bn/sc",
+            "port": "inception_3b/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 39,
+            "name": "inception_3b/pool_proj/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3b/pool_proj/bn/sc/relu",
+            "port": "inception_3b/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 40,
+            "name": "inception_3b/output",
+            "port": 4
+        },
+        "framework": {
+            "name": "inception_3b/output",
+            "port": "inception_3b/output"
+        }
+    },
+    {
+        "IR": {
+            "id": 41,
+            "name": "inception_3c/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3c/3x3_reduce/bn/sc",
+            "port": "inception_3c/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 42,
+            "name": "inception_3c/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3c/3x3_reduce/bn/sc/relu",
+            "port": "inception_3c/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 43,
+            "name": "inception_3c/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3c/3x3/bn/sc",
+            "port": "inception_3c/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 44,
+            "name": "inception_3c/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3c/3x3/bn/sc/relu",
+            "port": "inception_3c/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 45,
+            "name": "inception_3c/double3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3c/double3x3_reduce/bn/sc",
+            "port": "inception_3c/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 46,
+            "name": "inception_3c/double3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3c/double3x3_reduce/bn/sc/relu",
+            "port": "inception_3c/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 47,
+            "name": "inception_3c/double3x3a",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3c/double3x3a/bn/sc",
+            "port": "inception_3c/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 48,
+            "name": "inception_3c/double3x3a/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3c/double3x3a/bn/sc/relu",
+            "port": "inception_3c/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 49,
+            "name": "inception_3c/double3x3b",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3c/double3x3b/bn/sc",
+            "port": "inception_3c/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 50,
+            "name": "inception_3c/double3x3b/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3c/double3x3b/bn/sc/relu",
+            "port": "inception_3c/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 51,
+            "name": "inception_3c/pool",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_3c/pool",
+            "port": "inception_3c/pool"
+        }
+    },
+    {
+        "IR": {
+            "id": 52,
+            "name": "inception_3c/output",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_3c/output",
+            "port": "inception_3c/output"
+        }
+    },
+    {
+        "IR": {
+            "id": 53,
+            "name": "inception_4a/1x1",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4a/1x1/bn/sc",
+            "port": "inception_4a/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 54,
+            "name": "inception_4a/1x1/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4a/1x1/bn/sc/relu",
+            "port": "inception_4a/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 55,
+            "name": "inception_4a/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4a/3x3_reduce/bn/sc",
+            "port": "inception_4a/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 56,
+            "name": "inception_4a/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4a/3x3_reduce/bn/sc/relu",
+            "port": "inception_4a/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 57,
+            "name": "inception_4a/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4a/3x3/bn/sc",
+            "port": "inception_4a/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 58,
+            "name": "inception_4a/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4a/3x3/bn/sc/relu",
+            "port": "inception_4a/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 59,
+            "name": "inception_4a/double3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4a/double3x3_reduce/bn/sc",
+            "port": "inception_4a/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 60,
+            "name": "inception_4a/double3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4a/double3x3_reduce/bn/sc/relu",
+            "port": "inception_4a/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 61,
+            "name": "inception_4a/double3x3a",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4a/double3x3a/bn/sc",
+            "port": "inception_4a/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 62,
+            "name": "inception_4a/double3x3a/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4a/double3x3a/bn/sc/relu",
+            "port": "inception_4a/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 63,
+            "name": "inception_4a/double3x3b",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4a/double3x3b/bn/sc",
+            "port": "inception_4a/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 64,
+            "name": "inception_4a/double3x3b/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4a/double3x3b/bn/sc/relu",
+            "port": "inception_4a/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 65,
+            "name": "inception_4a/pool",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4a/pool",
+            "port": "inception_4a/pool"
+        }
+    },
+    {
+        "IR": {
+            "id": 66,
+            "name": "inception_4a/pool_proj",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4a/pool_proj/bn/sc",
+            "port": "inception_4a/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 67,
+            "name": "inception_4a/pool_proj/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4a/pool_proj/bn/sc/relu",
+            "port": "inception_4a/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 68,
+            "name": "inception_4a/output",
+            "port": 4
+        },
+        "framework": {
+            "name": "inception_4a/output",
+            "port": "inception_4a/output"
+        }
+    },
+    {
+        "IR": {
+            "id": 69,
+            "name": "inception_4b/1x1",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4b/1x1/bn/sc",
+            "port": "inception_4b/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 70,
+            "name": "inception_4b/1x1/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4b/1x1/bn/sc/relu",
+            "port": "inception_4b/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 71,
+            "name": "inception_4b/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4b/3x3_reduce/bn/sc",
+            "port": "inception_4b/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 72,
+            "name": "inception_4b/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4b/3x3_reduce/bn/sc/relu",
+            "port": "inception_4b/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 73,
+            "name": "inception_4b/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4b/3x3/bn/sc",
+            "port": "inception_4b/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 74,
+            "name": "inception_4b/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4b/3x3/bn/sc/relu",
+            "port": "inception_4b/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 75,
+            "name": "inception_4b/double3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4b/double3x3_reduce/bn/sc",
+            "port": "inception_4b/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 76,
+            "name": "inception_4b/double3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4b/double3x3_reduce/bn/sc/relu",
+            "port": "inception_4b/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 77,
+            "name": "inception_4b/double3x3a",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4b/double3x3a/bn/sc",
+            "port": "inception_4b/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 78,
+            "name": "inception_4b/double3x3a/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4b/double3x3a/bn/sc/relu",
+            "port": "inception_4b/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 79,
+            "name": "inception_4b/double3x3b",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4b/double3x3b/bn/sc",
+            "port": "inception_4b/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 80,
+            "name": "inception_4b/double3x3b/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4b/double3x3b/bn/sc/relu",
+            "port": "inception_4b/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 81,
+            "name": "inception_4b/pool",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4b/pool",
+            "port": "inception_4b/pool"
+        }
+    },
+    {
+        "IR": {
+            "id": 82,
+            "name": "inception_4b/pool_proj",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4b/pool_proj/bn/sc",
+            "port": "inception_4b/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 83,
+            "name": "inception_4b/pool_proj/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4b/pool_proj/bn/sc/relu",
+            "port": "inception_4b/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 84,
+            "name": "inception_4b/output",
+            "port": 4
+        },
+        "framework": {
+            "name": "inception_4b/output",
+            "port": "inception_4b/output"
+        }
+    },
+    {
+        "IR": {
+            "id": 85,
+            "name": "inception_4c/1x1",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4c/1x1/bn/sc",
+            "port": "inception_4c/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 86,
+            "name": "inception_4c/1x1/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4c/1x1/bn/sc/relu",
+            "port": "inception_4c/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 87,
+            "name": "inception_4c/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4c/3x3_reduce/bn/sc",
+            "port": "inception_4c/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 88,
+            "name": "inception_4c/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4c/3x3_reduce/bn/sc/relu",
+            "port": "inception_4c/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 89,
+            "name": "inception_4c/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4c/3x3/bn/sc",
+            "port": "inception_4c/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 90,
+            "name": "inception_4c/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4c/3x3/bn/sc/relu",
+            "port": "inception_4c/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 91,
+            "name": "inception_4c/double3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4c/double3x3_reduce/bn/sc",
+            "port": "inception_4c/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 92,
+            "name": "inception_4c/double3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4c/double3x3_reduce/bn/sc/relu",
+            "port": "inception_4c/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 93,
+            "name": "inception_4c/double3x3a",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4c/double3x3a/bn/sc",
+            "port": "inception_4c/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 94,
+            "name": "inception_4c/double3x3a/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4c/double3x3a/bn/sc/relu",
+            "port": "inception_4c/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 95,
+            "name": "inception_4c/double3x3b",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4c/double3x3b/bn/sc",
+            "port": "inception_4c/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 96,
+            "name": "inception_4c/double3x3b/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4c/double3x3b/bn/sc/relu",
+            "port": "inception_4c/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 97,
+            "name": "inception_4c/pool",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4c/pool",
+            "port": "inception_4c/pool"
+        }
+    },
+    {
+        "IR": {
+            "id": 98,
+            "name": "inception_4c/pool_proj",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4c/pool_proj/bn/sc",
+            "port": "inception_4c/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 99,
+            "name": "inception_4c/pool_proj/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4c/pool_proj/bn/sc/relu",
+            "port": "inception_4c/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 100,
+            "name": "inception_4c/output",
+            "port": 4
+        },
+        "framework": {
+            "name": "inception_4c/output",
+            "port": "inception_4c/output"
+        }
+    },
+    {
+        "IR": {
+            "id": 101,
+            "name": "inception_4d/1x1",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4d/1x1/bn/sc",
+            "port": "inception_4d/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 102,
+            "name": "inception_4d/1x1/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4d/1x1/bn/sc/relu",
+            "port": "inception_4d/1x1/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 103,
+            "name": "inception_4d/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4d/3x3_reduce/bn/sc",
+            "port": "inception_4d/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 104,
+            "name": "inception_4d/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4d/3x3_reduce/bn/sc/relu",
+            "port": "inception_4d/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 105,
+            "name": "inception_4d/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4d/3x3/bn/sc",
+            "port": "inception_4d/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 106,
+            "name": "inception_4d/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4d/3x3/bn/sc/relu",
+            "port": "inception_4d/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 107,
+            "name": "inception_4d/double3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4d/double3x3_reduce/bn/sc",
+            "port": "inception_4d/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 108,
+            "name": "inception_4d/double3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4d/double3x3_reduce/bn/sc/relu",
+            "port": "inception_4d/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 109,
+            "name": "inception_4d/double3x3a",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4d/double3x3a/bn/sc",
+            "port": "inception_4d/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 110,
+            "name": "inception_4d/double3x3a/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4d/double3x3a/bn/sc/relu",
+            "port": "inception_4d/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 111,
+            "name": "inception_4d/double3x3b",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4d/double3x3b/bn/sc",
+            "port": "inception_4d/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 112,
+            "name": "inception_4d/double3x3b/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4d/double3x3b/bn/sc/relu",
+            "port": "inception_4d/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 113,
+            "name": "inception_4d/pool",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4d/pool",
+            "port": "inception_4d/pool"
+        }
+    },
+    {
+        "IR": {
+            "id": 114,
+            "name": "inception_4d/pool_proj",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4d/pool_proj/bn/sc",
+            "port": "inception_4d/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 115,
+            "name": "inception_4d/pool_proj/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4d/pool_proj/bn/sc/relu",
+            "port": "inception_4d/pool_proj/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 116,
+            "name": "inception_4d/output",
+            "port": 4
+        },
+        "framework": {
+            "name": "inception_4d/output",
+            "port": "inception_4d/output"
+        }
+    },
+    {
+        "IR": {
+            "id": 117,
+            "name": "inception_4e/3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4e/3x3_reduce/bn/sc",
+            "port": "inception_4e/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 118,
+            "name": "inception_4e/3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4e/3x3_reduce/bn/sc/relu",
+            "port": "inception_4e/3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 119,
+            "name": "inception_4e/3x3",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4e/3x3/bn/sc",
+            "port": "inception_4e/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 120,
+            "name": "inception_4e/3x3/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4e/3x3/bn/sc/relu",
+            "port": "inception_4e/3x3/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 121,
+            "name": "inception_4e/double3x3_reduce",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4e/double3x3_reduce/bn/sc",
+            "port": "inception_4e/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 122,
+            "name": "inception_4e/double3x3_reduce/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4e/double3x3_reduce/bn/sc/relu",
+            "port": "inception_4e/double3x3_reduce/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 123,
+            "name": "inception_4e/double3x3a",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4e/double3x3a/bn/sc",
+            "port": "inception_4e/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 124,
+            "name": "inception_4e/double3x3a/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4e/double3x3a/bn/sc/relu",
+            "port": "inception_4e/double3x3a/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 125,
+            "name": "inception_4e/double3x3b",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4e/double3x3b/bn/sc",
+            "port": "inception_4e/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 126,
+            "name": "inception_4e/double3x3b/bn/sc/relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4e/double3x3b/bn/sc/relu",
+            "port": "inception_4e/double3x3b/bn/sc"
+        }
+    },
+    {
+        "IR": {
+            "id": 127,
+            "name": "inception_4e/pool",
+            "port": 1
+        },
+        "framework": {
+            "name": "inception_4e/pool",
+            "port": "inception_4e/pool"
+        }
+    },
+    {
+        "IR": {
+            "id": 128,
+            "name": "inception_4e/output",
+            "port": 3
+        },
+        "framework": {
+            "name": "inception_4e/output",
+            "port": "inception_4e/output"
+        }
+    },
+    {
+        "IR": {
+            "id": 129,
+            "name": "conv6_1",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv6_1",
+            "port": "conv6_1"
+        }
+    },
+    {
+        "IR": {
+            "id": 130,
+            "name": "conv6_1_relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv6_1_relu",
+            "port": "conv6_1"
+        }
+    },
+    {
+        "IR": {
+            "id": 131,
+            "name": "conv6_2",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv6_2",
+            "port": "conv6_2"
+        }
+    },
+    {
+        "IR": {
+            "id": 132,
+            "name": "conv6_2_relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv6_2_relu",
+            "port": "conv6_2"
+        }
+    },
+    {
+        "IR": {
+            "id": 133,
+            "name": "conv7_1",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv7_1",
+            "port": "conv7_1"
+        }
+    },
+    {
+        "IR": {
+            "id": 134,
+            "name": "conv7_1_relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv7_1_relu",
+            "port": "conv7_1"
+        }
+    },
+    {
+        "IR": {
+            "id": 135,
+            "name": "conv7_2",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv7_2",
+            "port": "conv7_2"
+        }
+    },
+    {
+        "IR": {
+            "id": 136,
+            "name": "conv7_2_relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv7_2_relu",
+            "port": "conv7_2"
+        }
+    },
+    {
+        "IR": {
+            "id": 137,
+            "name": "conv8_1",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv8_1",
+            "port": "conv8_1"
+        }
+    },
+    {
+        "IR": {
+            "id": 138,
+            "name": "conv8_1_relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv8_1_relu",
+            "port": "conv8_1"
+        }
+    },
+    {
+        "IR": {
+            "id": 139,
+            "name": "conv8_2",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv8_2",
+            "port": "conv8_2"
+        }
+    },
+    {
+        "IR": {
+            "id": 140,
+            "name": "conv8_2_relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv8_2_relu",
+            "port": "conv8_2"
+        }
+    },
+    {
+        "IR": {
+            "id": 141,
+            "name": "conv9_1",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv9_1",
+            "port": "conv9_1"
+        }
+    },
+    {
+        "IR": {
+            "id": 142,
+            "name": "conv9_1_relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv9_1_relu",
+            "port": "conv9_1"
+        }
+    },
+    {
+        "IR": {
+            "id": 143,
+            "name": "conv9_2",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv9_2",
+            "port": "conv9_2"
+        }
+    },
+    {
+        "IR": {
+            "id": 144,
+            "name": "conv9_2_relu",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv9_2_relu",
+            "port": "conv9_2"
+        }
+    },
+    {
+        "IR": {
+            "id": 145,
+            "name": "conv4_3_norm_mbox_loc",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv4_3_norm_mbox_loc",
+            "port": "conv4_3_norm_mbox_loc"
+        }
+    },
+    {
+        "IR": {
+            "id": 146,
+            "name": "conv4_3_norm_mbox_loc_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv4_3_norm_mbox_loc_perm",
+            "port": "conv4_3_norm_mbox_loc_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 147,
+            "name": "conv4_3_norm_mbox_loc_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv4_3_norm_mbox_loc_flat",
+            "port": "conv4_3_norm_mbox_loc_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 148,
+            "name": "conv4_3_norm_mbox_conf",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv4_3_norm_mbox_conf",
+            "port": "conv4_3_norm_mbox_conf"
+        }
+    },
+    {
+        "IR": {
+            "id": 149,
+            "name": "conv4_3_norm_mbox_conf_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv4_3_norm_mbox_conf_perm",
+            "port": "conv4_3_norm_mbox_conf_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 150,
+            "name": "conv4_3_norm_mbox_conf_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv4_3_norm_mbox_conf_flat",
+            "port": "conv4_3_norm_mbox_conf_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 151,
+            "name": "conv4_3_norm_mbox_priorbox",
+            "port": 2
+        },
+        "framework": {
+            "name": "conv4_3_norm_mbox_priorbox",
+            "port": "conv4_3_norm_mbox_priorbox"
+        }
+    },
+    {
+        "IR": {
+            "id": 152,
+            "name": "fc7_mbox_loc",
+            "port": 3
+        },
+        "framework": {
+            "name": "fc7_mbox_loc",
+            "port": "fc7_mbox_loc"
+        }
+    },
+    {
+        "IR": {
+            "id": 153,
+            "name": "fc7_mbox_loc_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "fc7_mbox_loc_perm",
+            "port": "fc7_mbox_loc_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 154,
+            "name": "fc7_mbox_loc_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "fc7_mbox_loc_flat",
+            "port": "fc7_mbox_loc_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 155,
+            "name": "fc7_mbox_conf",
+            "port": 3
+        },
+        "framework": {
+            "name": "fc7_mbox_conf",
+            "port": "fc7_mbox_conf"
+        }
+    },
+    {
+        "IR": {
+            "id": 156,
+            "name": "fc7_mbox_conf_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "fc7_mbox_conf_perm",
+            "port": "fc7_mbox_conf_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 157,
+            "name": "fc7_mbox_conf_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "fc7_mbox_conf_flat",
+            "port": "fc7_mbox_conf_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 158,
+            "name": "fc7_mbox_priorbox",
+            "port": 2
+        },
+        "framework": {
+            "name": "fc7_mbox_priorbox",
+            "port": "fc7_mbox_priorbox"
+        }
+    },
+    {
+        "IR": {
+            "id": 159,
+            "name": "conv6_2_mbox_loc",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv6_2_mbox_loc",
+            "port": "conv6_2_mbox_loc"
+        }
+    },
+    {
+        "IR": {
+            "id": 160,
+            "name": "conv6_2_mbox_loc_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv6_2_mbox_loc_perm",
+            "port": "conv6_2_mbox_loc_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 161,
+            "name": "conv6_2_mbox_loc_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv6_2_mbox_loc_flat",
+            "port": "conv6_2_mbox_loc_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 162,
+            "name": "conv6_2_mbox_conf",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv6_2_mbox_conf",
+            "port": "conv6_2_mbox_conf"
+        }
+    },
+    {
+        "IR": {
+            "id": 163,
+            "name": "conv6_2_mbox_conf_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv6_2_mbox_conf_perm",
+            "port": "conv6_2_mbox_conf_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 164,
+            "name": "conv6_2_mbox_conf_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv6_2_mbox_conf_flat",
+            "port": "conv6_2_mbox_conf_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 165,
+            "name": "conv6_2_mbox_priorbox",
+            "port": 2
+        },
+        "framework": {
+            "name": "conv6_2_mbox_priorbox",
+            "port": "conv6_2_mbox_priorbox"
+        }
+    },
+    {
+        "IR": {
+            "id": 166,
+            "name": "conv7_2_mbox_loc",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv7_2_mbox_loc",
+            "port": "conv7_2_mbox_loc"
+        }
+    },
+    {
+        "IR": {
+            "id": 167,
+            "name": "conv7_2_mbox_loc_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv7_2_mbox_loc_perm",
+            "port": "conv7_2_mbox_loc_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 168,
+            "name": "conv7_2_mbox_loc_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv7_2_mbox_loc_flat",
+            "port": "conv7_2_mbox_loc_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 169,
+            "name": "conv7_2_mbox_conf",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv7_2_mbox_conf",
+            "port": "conv7_2_mbox_conf"
+        }
+    },
+    {
+        "IR": {
+            "id": 170,
+            "name": "conv7_2_mbox_conf_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv7_2_mbox_conf_perm",
+            "port": "conv7_2_mbox_conf_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 171,
+            "name": "conv7_2_mbox_conf_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv7_2_mbox_conf_flat",
+            "port": "conv7_2_mbox_conf_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 172,
+            "name": "conv7_2_mbox_priorbox",
+            "port": 2
+        },
+        "framework": {
+            "name": "conv7_2_mbox_priorbox",
+            "port": "conv7_2_mbox_priorbox"
+        }
+    },
+    {
+        "IR": {
+            "id": 173,
+            "name": "conv8_2_mbox_loc",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv8_2_mbox_loc",
+            "port": "conv8_2_mbox_loc"
+        }
+    },
+    {
+        "IR": {
+            "id": 174,
+            "name": "conv8_2_mbox_loc_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv8_2_mbox_loc_perm",
+            "port": "conv8_2_mbox_loc_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 175,
+            "name": "conv8_2_mbox_loc_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv8_2_mbox_loc_flat",
+            "port": "conv8_2_mbox_loc_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 176,
+            "name": "conv8_2_mbox_conf",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv8_2_mbox_conf",
+            "port": "conv8_2_mbox_conf"
+        }
+    },
+    {
+        "IR": {
+            "id": 177,
+            "name": "conv8_2_mbox_conf_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv8_2_mbox_conf_perm",
+            "port": "conv8_2_mbox_conf_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 178,
+            "name": "conv8_2_mbox_conf_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv8_2_mbox_conf_flat",
+            "port": "conv8_2_mbox_conf_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 179,
+            "name": "conv8_2_mbox_priorbox",
+            "port": 2
+        },
+        "framework": {
+            "name": "conv8_2_mbox_priorbox",
+            "port": "conv8_2_mbox_priorbox"
+        }
+    },
+    {
+        "IR": {
+            "id": 180,
+            "name": "conv9_2_mbox_loc",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv9_2_mbox_loc",
+            "port": "conv9_2_mbox_loc"
+        }
+    },
+    {
+        "IR": {
+            "id": 181,
+            "name": "conv9_2_mbox_loc_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv9_2_mbox_loc_perm",
+            "port": "conv9_2_mbox_loc_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 182,
+            "name": "conv9_2_mbox_loc_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv9_2_mbox_loc_flat",
+            "port": "conv9_2_mbox_loc_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 183,
+            "name": "conv9_2_mbox_conf",
+            "port": 3
+        },
+        "framework": {
+            "name": "conv9_2_mbox_conf",
+            "port": "conv9_2_mbox_conf"
+        }
+    },
+    {
+        "IR": {
+            "id": 184,
+            "name": "conv9_2_mbox_conf_perm",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv9_2_mbox_conf_perm",
+            "port": "conv9_2_mbox_conf_perm"
+        }
+    },
+    {
+        "IR": {
+            "id": 185,
+            "name": "conv9_2_mbox_conf_flat",
+            "port": 1
+        },
+        "framework": {
+            "name": "conv9_2_mbox_conf_flat",
+            "port": "conv9_2_mbox_conf_flat"
+        }
+    },
+    {
+        "IR": {
+            "id": 186,
+            "name": "conv9_2_mbox_priorbox",
+            "port": 2
+        },
+        "framework": {
+            "name": "conv9_2_mbox_priorbox",
+            "port": "conv9_2_mbox_priorbox"
+        }
+    },
+    {
+        "IR": {
+            "id": 187,
+            "name": "mbox_loc",
+            "port": 6
+        },
+        "framework": {
+            "name": "mbox_loc",
+            "port": "mbox_loc"
+        }
+    },
+    {
+        "IR": {
+            "id": 188,
+            "name": "mbox_conf",
+            "port": 6
+        },
+        "framework": {
+            "name": "mbox_conf",
+            "port": "mbox_conf"
+        }
+    },
+    {
+        "IR": {
+            "id": 189,
+            "name": "mbox_priorbox",
+            "port": 6
+        },
+        "framework": {
+            "name": "mbox_priorbox",
+            "port": "mbox_priorbox"
+        }
+    },
+    {
+        "IR": {
+            "id": 190,
+            "name": "mbox_conf_reshape",
+            "port": 1
+        },
+        "framework": {
+            "name": "mbox_conf_reshape",
+            "port": "mbox_conf_reshape"
+        }
+    },
+    {
+        "IR": {
+            "id": 191,
+            "name": "mbox_conf_softmax",
+            "port": 1
+        },
+        "framework": {
+            "name": "mbox_conf_softmax",
+            "port": "mbox_conf_softmax"
+        }
+    },
+    {
+        "IR": {
+            "id": 192,
+            "name": "mbox_conf_flatten",
+            "port": 1
+        },
+        "framework": {
+            "name": "mbox_conf_flatten",
+            "port": "mbox_conf_flatten"
+        }
+    },
+    {
+        "IR": {
+            "id": 193,
+            "name": "detection_out",
+            "port": 3
+        },
+        "framework": {
+            "name": "detection_out",
+            "port": "detection_out"
+        }
+    }
+]
